@@ -16,8 +16,14 @@
 | Họ tên | MSSV | GitHub |
 |:-------|:---------|:--------|
 | Lê Quang Trường | 23130355 | [@lqt247](https://github.com/lqt247) |
-| Phan Văn Thi | 23130309 | [@usernameB](https://github.com/usernameB) |
-| Nguyễn Thanh Tuấn | 20130456 | [@usernameC](https://github.com/usernameC) |
+| Phan Văn Thi | 23130309 | [@thiphan2301 ](https://github.com/thiphan2301) |
+| Nguyễn Thanh Tuấn | 20130456 | [@thanhtuan2701](https://github.com/thanhtuan2701) |
+
+## 📋 Bảng Task
+
+**Bảng Task của nhóm** tại link dưới đây:  
+
+[📋 - Bảng Task Team 23](https://docs.google.com/spreadsheets/d/1wz3HGwNG3Q0sIKK-cX_u41N2N5kKUkCvMzlcieURk8U/edit?usp=sharing)
 
 ## 📝 Mô tả 
 Đây là repo chứa toàn bộ mã nguồn và tài liệu của đồ án giữa kì môn Lập trình Web – được thực hiện bởi Team 23 dưới sự hướng dẫn của thầy Phan Đình Long.
@@ -31,6 +37,42 @@ Dự án không chỉ giúp nhóm nâng cao kỹ năng lập trình web, mà cò
 
 Mục tiêu: Hoàn thiện sản phẩm đúng tiến độ, hoạt động ổn định, giao diện đẹp – hướng tới điểm 10 tuyệt đối cho đồ án giữa kì. KAKA
 
+
+## Cấu trúc thư mục
+
+- LTWeb_GiuaKi_Nhom23-Shop_Steam/
+  - index.html → Trang chủ
+  - main/
+    - **about.html** → Giới thiệu về STEM & nhóm phát triển
+    - **contact.html** → Liên hệ
+    - faq.html → Câu hỏi thường gặp (footer)
+    - policy.html → Chính sách bảo hành / đổi trả (footer)
+    - terms.html → Điều khoản sử dụng (footer)
+  - shop/
+      - **shop.html** → Danh sách sản phẩm
+      - category.html → Danh mục sản phẩm
+      - product-detail.html → Chi tiết sản phẩm
+      - **cart.html** → Giỏ hàng
+      - **wishlist.html** → Danh sách yêu thích
+      - checkout.html → Thanh toán
+  - user/
+    - **sign-in.html** → Đăng nhập
+    - **sign-up.html** → Đăng ký
+    - forgot-password.html → Quên mật khẩu
+  - content/
+    - **blog.html** → Danh sách bài viết
+    - blog-detail.html → Chi tiết bài viết
+    - gallery.html → Bộ sưu tập hình ảnh
+  - workshop/
+      - events.html → Sự kiện, Workshop STEM
+      - rate.html → Đánh giá khách hàng
+  - assets/
+    - css/ → Các file CSS
+    - js/ → Các file JavaScript
+    - images/ → Hình ảnh sản phẩm, banner
+    - fonts/ → Font chữ sử dụng
+    - data/ → File dữ liệu giả lập (JSON)
+  - README.md → Tài liệu mô tả dự án
 
 ## 🧩 Mô tả dự án
 
