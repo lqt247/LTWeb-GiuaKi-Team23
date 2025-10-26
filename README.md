@@ -19,6 +19,58 @@
 | Phan Văn Thi | 23130309 | [@thiphan2301 ](https://github.com/thiphan2301) |
 | Nguyễn Thanh Tuấn | 20130456 | [@thanhtuan2701](https://github.com/thanhtuan2701) |
 
+## ⚙️ YÊU CẦU CHUNG VỀ CODE
+### 🧭 MỤC TIÊU CHUNG
+- Code **dễ đọc, dễ hiểu, dễ bảo trì**, ai cũng nắm rõ phần mình làm.
+- Cấu trúc dự án **rõ ràng**, dễ mở rộng khi phát triển thêm tính năng.
+- Sử dụng **cú pháp BEM** cho class nha.
+
+#### 💻 HTML
+
+**Yêu cầu:**
+- Tất cả trang `.html` **sử dụng chung Header và Footer** để đồng nhất giao diện.  
+- Dùng **HTML5 semantic tags** (`header`, `nav`, `main`, `section`, `article`, `footer`, ...) để cấu trúc nội dung rõ ràng.  
+- **Không dùng `float`** — thay bằng **Flexbox hoặc CSS Grid** cho bố cục hiện đại.  
+- Ghi **comment rõ ràng** để người khác dễ hiểu phần code:
+
+#### 🎨 CSS
+
+**Nguyên tắc chung:**
+- Dùng **quy tắc đặt tên BEM** (Block – Element – Modifier) để dễ hiểu, dễ mở rộng.
+  ```css
+  .card {}            /* Block */
+  .card__image {}     /* Element */
+  .card--highlight {} /* Modifier */
+
+  /* Ví dụ: Thẻ sản phẩm trong trang Shop */
+
+  /* Block – đại diện cho một khối độc lập */
+  .product-card {
+    background-color: #fff;
+  }
+
+  /* Element – phần tử con nằm trong block */
+  .product-card__image {
+    width: 100%;
+  }
+
+  .product-card__title {
+
+  }
+
+  .product-card__price {
+
+  }
+
+  /* Modifier – biến thể của block (ví dụ: sản phẩm nổi bật) */
+  .product-card--featured {
+  
+  }
+
+
+- Tất cả .html nên dùng 1 file **style.css** (duy nhất).
+
+
 ## 📋 Bảng Task
 
 **Bảng Task của nhóm** tại link dưới đây:  
@@ -40,38 +92,49 @@ Mục tiêu: Hoàn thiện sản phẩm đúng tiến độ, hoạt động ổn
 
 ## Cấu trúc thư mục
 
-- LTWeb_GiuaKi_Nhom23-Shop_Steam/
-  - index.html → Trang chủ
-  - main/
-    - **about.html** → Giới thiệu về STEM & nhóm phát triển
-    - **contact.html** → Liên hệ
-    - faq.html → Câu hỏi thường gặp (footer)
-    - policy.html → Chính sách bảo hành / đổi trả (footer)
-    - terms.html → Điều khoản sử dụng (footer)
-  - shop/
-      - **shop.html** → Danh sách sản phẩm
-      - category.html → Danh mục sản phẩm
-      - product-detail.html → Chi tiết sản phẩm
-      - **cart.html** → Giỏ hàng
-      - **wishlist.html** → Danh sách yêu thích
-      - checkout.html → Thanh toán
-  - user/
-    - **sign-in.html** → Đăng nhập
-    - **sign-up.html** → Đăng ký
-    - forgot-password.html → Quên mật khẩu
-  - content/
-    - **blog.html** → Danh sách bài viết
-    - blog-detail.html → Chi tiết bài viết
-    - gallery.html → Bộ sưu tập hình ảnh
-  - workshop/
-      - events.html → Sự kiện, Workshop STEM
-      - rate.html → Đánh giá khách hàng
-  - assets/
-    - css/ → Các file CSS
-    - js/ → Các file JavaScript
-    - images/ → Hình ảnh sản phẩm, banner
-    - fonts/ → Font chữ sử dụng
-    - data/ → File dữ liệu giả lập (JSON)
+- LTWeb_GiuaKi_Nhom23-Shop_Steam/  
+  - src/
+    - index.html → Trang chủ
+    - main/
+      - **about.html** → Giới thiệu về STEM & nhóm phát triển
+      - **contact.html** → Liên hệ
+      - faq.html → Câu hỏi thường gặp (footer)
+      - policy.html → Chính sách bảo hành / đổi trả (footer)
+      - terms.html → Điều khoản sử dụng (footer)
+    - shop/
+        - **shop.html** → Danh sách sản phẩm
+        - category.html → Danh mục sản phẩm
+        - product-detail.html → Chi tiết sản phẩm
+        - **cart.html** → Giỏ hàng
+        - **wishlist.html** → Danh sách yêu thích
+        - checkout.html → Thanh toán
+    - user/
+      - **sign-in.html** → Đăng nhập
+      - **sign-up.html** → Đăng ký
+      - forgot-password.html → Quên mật khẩu
+    - content/
+      - **blog.html** → Danh sách bài viết
+      - blog-detail.html → Chi tiết bài viết
+      - gallery.html → Bộ sưu tập hình ảnh
+    - workshop/
+        - events.html → Sự kiện, Workshop STEM
+        - rate.html → Đánh giá khách hàng
+    - assets/
+      - css/ → Các file CSS
+        - style.css  → file CSS chính -> điều hướng tới các file css sau.
+        - base.css
+        - layout.css
+        - component.css
+        - pages/ 
+          - ???.css
+          - ???.css
+          - ???.css
+          - ???.css
+
+      - js/ → Các file JavaScript
+      - images/ → Hình ảnh sản phẩm, banner
+      - fonts/ → Font chữ sử dụng
+      - data/ → File dữ liệu giả lập (JSON)
   - README.md → Tài liệu mô tả dự án
 
 ## 🧩 Mô tả dự án
@@ -123,4 +186,4 @@ Người dùng có thể thực hiện các tính năng cơ bản sau:
 
 ## 💡 Ghi chú
 Mọi thay đổi cần được thực hiện qua Pull Request.  
-Sẽ cập nhật thêm.
+Sẽ cập nhật thêm. - Trong file báo cáo .doc
