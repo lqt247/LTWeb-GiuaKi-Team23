@@ -15,7 +15,6 @@
   top: 0;
   z-index: 1000;
   height: 100px;
-
 }
 
 /*--- Điều chỉnh trên đt---- CHATGPT*/
@@ -87,7 +86,6 @@
 .header__first {
   background: linear-gradient(45deg, hsl(335, 100%, 67%), rgb(255, 170, 50));
   padding: 15px 0;
-
   font-size: 0.9rem;
   color: #ffffff;
 }
@@ -183,7 +181,6 @@
   align-items: center;
 
 
-
 .header__end-left {
   display: flex;
   align-items: center;
@@ -210,7 +207,6 @@
 }
 
 /*---Menu--*/
-
 .nav-content ul {
   display: flex;
   gap: 40px;
@@ -373,7 +369,6 @@
   gap: 10px;
 }
 
-
 /* giỏ hàng, checklist */
 .header__shop {
   display: flex;
@@ -398,7 +393,6 @@
 
 .header__shop i:hover {
   color: rgb(255, 0, 0);
-
 
 }
 
@@ -441,5 +435,4 @@ color: #ff46d4;
 
 .header__user a:hover {
   color: rgb(255, 0, 0);
-
 }
