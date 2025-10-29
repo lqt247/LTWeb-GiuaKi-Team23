@@ -1,6 +1,7 @@
 
 
 
+
 /*-----CSS cơ bản chung cần có------*/
 
 /*-----CSS BASE------*/
@@ -17,4 +18,8 @@
 @import url(components.css);
 
 
+
+=======
+/*-----CSS cơ bản------*/
+@import url(base.css);
 
