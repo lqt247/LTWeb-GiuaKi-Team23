@@ -1,4 +1,4 @@
-<h1 align="center" > ⚙️ Đồ án Giữa Kì - Team 23</h1>
+<h1 align="center" > ⚙️ Đồ án Giữa Kì - Team 22</h1>
 <p align="center">
   <b>Môn học:</b> Lập trình Web · 
   <b>Giảng viên hướng dẫn:</b> Phan Đình Long  
@@ -24,6 +24,8 @@
 - Code **dễ đọc, dễ hiểu, dễ bảo trì**, ai cũng nắm rõ phần mình làm.
 - Cấu trúc dự án **rõ ràng**, dễ mở rộng khi phát triển thêm tính năng.
 - Sử dụng **cú pháp BEM** cho class nha.
+
+- FONTS: **lấy và sử dụng ở trang:** https://fonts.google.com/ => import vào fonts.css
 
 #### 💻 HTML
 
@@ -75,10 +77,11 @@
 
 **Bảng Task của nhóm** tại link dưới đây:  
 
-[📋 - Bảng Task Team 23](https://docs.google.com/spreadsheets/d/1wz3HGwNG3Q0sIKK-cX_u41N2N5kKUkCvMzlcieURk8U/edit?usp=sharing)
+[📋 - Bảng Task Team 22](https://docs.google.com/spreadsheets/d/1wz3HGwNG3Q0sIKK-cX_u41N2N5kKUkCvMzlcieURk8U/edit?usp=sharing)
+
 
 ## 📝 Mô tả 
-Đây là repo chứa toàn bộ mã nguồn và tài liệu của đồ án giữa kì môn Lập trình Web – được thực hiện bởi Team 23 dưới sự hướng dẫn của thầy Phan Đình Long.
+Đây là repo chứa toàn bộ mã nguồn và tài liệu của đồ án giữa kì môn Lập trình Web – được thực hiện bởi Team 22 dưới sự hướng dẫn của thầy Phan Đình Long.
 
 Dự án được xây dựng với mục tiêu vận dụng các kiến thức đã học về HTML, CSS, JavaScript, MySQL để tạo nên một website hoàn chỉnh, có giao diện thân thiện, sinh động và mang tính thực tế cao.
 
@@ -121,6 +124,12 @@ Mục tiêu: Hoàn thiện sản phẩm đúng tiến độ, hoạt động ổn
         - rate.html → Đánh giá khách hàng
     - assets/
       - css/ → Các file CSS
+        - style.css  → file CSS: nó để CSS những cái chung chung
+        - fonts.css  → Khai báo font ở đây //Down font đặt biệt// Thông thường dùng gg font cho nhanh.
+        - base.css
+        - layout.css
+        - component.css
+        - pages/   → file CSS: css riêng từng trang -> sau đó link vào .html
         - style.css  → file CSS chính -> điều hướng tới các file css sau.
         - base.css
         - layout.css

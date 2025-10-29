@@ -1,0 +1,25 @@
+
+/* --- BASE --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px; 
+}
+
+body {
+  font-family: 'Roboto', sans-serif; 
+  color: #333; 
+  background-color: #fff; 
+  line-height: 1.6; 
+}
+
+
+h1, h2, h3, .header__logo {
+  font-family: 'Poppins', sans-serif; 
+  font-weight: 600;
+  line-height: 1.3;
+}
