@@ -1,0 +1,102 @@
+main {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.back {
+    background-color: #f6f5f4;
+    font-size: 13px;
+    padding: 10px;
+}
+.back a,
+.back span{
+    text-decoration: none;
+    color: #a1a0a0;
+    margin-left: 20px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.products h2 {
+    font-size: 20px;
+    color: #FF6C80;
+}
+
+.product {
+    margin: 30px;
+}
+
+.product__category {
+    border-bottom: 1px solid #d6d6d6;
+    margin: 10px 0;
+}
+
+/*danh mục*/
+.product__category ul {
+    height: 200px;
+    overflow: auto;
+    padding-right: 10px;
+}
+.product__category ul::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+/* Thiết lập màu nền cho phần kéo cuộn (THUMB) */
+.product__category ul::-webkit-scrollbar-thumb {
+    background: #888; /* Màu xám đậm */
+    border-radius: 5px; /* Tùy chọn: Bo góc cho thanh cuộn */
+}
+/* (Tùy chọn) Thiết lập màu nền cho rãnh cuộn (TRACK) */
+.product__category ul::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Màu xám nhạt */
+}
+.product__categorys ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 10px;
+}
+.product__categorys ul li i {
+    font-size: 12px;
+}
+.product__categorys ul li i:hover {
+    cursor: pointer;
+}
+
+/* Giá*/
+.product__price {
+    height: 150px;
+}
+
+/*Tuổi*/
+.product__age {
+    height: 130px;
+}
+
+/*giới tính*/
+.product__sex {
+    height: 100px;
+}
+
+/*Thương hiệu*/
+.product__trademark {
+    height: 220px;
+}
+
+/*   */
+.product__card {
+
+    width: 200px;
+    border: 1px solid #f333 ;
+    margin: 10px;
+}
+.product__card img {
+    width: 180px;
+}
+
