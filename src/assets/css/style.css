@@ -1,0 +1,104 @@
+
+
+/*-----CSS cơ bản chung cần có------*/
+
+/*-----CSS BASE------*/
+@import url(base.css);
+
+
+/*-----CSS FONTS-----*/
+@import url(fonts/fonts.css);
+
+
+/*-----CSS LAYOUT------*/
+@import url(layout/header.css);
+@import url(layout/footer.css);
+@import url(layout/container.css);
+
+/*-----CSS COMPOENTS------*/
+@import url(components.css);
+
+/*-----FORM ĐĂNG NHẬP & ĐĂNG KÝ (BEM)-----*/
+.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f5f7fa;
+}
+
+.auth__container {
+    background: #fff;
+    padding: 40px 50px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.auth__title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #222;
+}
+
+.auth__group {
+    margin-bottom: 20px;
+}
+
+.auth__label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.auth__input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.auth__input:focus {
+    border-color: #007bff;
+}
+
+.auth__button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.auth__button:hover {
+    background-color: #0056b3;
+}
+
+.auth__link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.auth__link--highlight {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.auth__link--highlight:hover {
+    text-decoration: underline;
+}
+
+
+
