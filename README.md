@@ -15,10 +15,86 @@
 
 | Họ tên | MSSV | GitHub |
 |:-------|:---------|:--------|
-| Lê Quang Trường | 23130355 | [@lqt247](https://github.com/lqt247) |
+| Lê Quang Trường 🔑 (Leader) | 23130355 | [@lqt247](https://github.com/lqt247) | 
 | Phan Văn Thi | 23130309 | [@thiphan2301 ](https://github.com/thiphan2301) |
 | Nguyễn Thanh Tuấn | 20130456 | [@thanhtuan2701](https://github.com/thanhtuan2701) |
 
+## Cấu trúc thư mục
+
+- LTWeb_GiuaKi_Nhom22-Shop_Steam/  
+  - index.html   → Trang chủ   
+  - README.md → Tài liệu mô tả dự án
+  - src/ 
+    - componets/          → Các phần giao diện dùng chung
+      - header.html
+      - footer.html
+    - page/        → Các trang .html
+        - main/
+          - **about.html** → Giới thiệu về STEM & nhóm phát triển
+          - **contact.html** → Liên hệ
+          - faq.html → Câu hỏi thường gặp (footer/about_info)
+          - policy.html → Chính sách bảo hành / đổi trả (footer)
+          - terms.html → Điều khoản sử dụng (footer)
+        - about_info/  → NHÓM CON CỦA “about” 
+            - about-stem.html → Giải thích về STEM
+            - about-group.html  → Giới thiệu nhóm phát triển 
+            - guide.html → Tài liệu hướng dẫn sử dụng sản phẩm
+            -  mission.html   → Sứ mệnh & Tầm nhìn
+            - main/faq.html → Câu hỏi thường gặp (footer/about_info)
+        - shop/ → Cửa hàng & sản phẩm
+            - **shop.html** → Trang sản sản phẩm
+            - category.html → Danh mục sản phẩm
+            - product-detail.html → Chi tiết sản phẩm
+            - **cart.html** → Giỏ hàng
+            - **wishlist.html** → Danh sách yêu thích
+            - checkout.html → Thanh toán
+        - user/   Tài khoản & hồ sơ người dùng
+          - **sign-in.html** → Đăng nhập
+          - **sign-up.html** → Đăng ký
+          - forgot-password.html → Quên mật khẩu
+          - profile.html    → Trang thông tin người dùng 
+        - content/ → Kho học tập & bài viết STEM
+          - **blog.html** → Danh sách bài viết
+          - blog-category.html  → Danh mục bài viết
+          - blog-detail.html → Chi tiết bài viết
+          - gallery.html → Bộ sưu tập hình ảnh
+          - resources.html    → Tài nguyên học tập – ebook, link học, file PDF, video, v.v. 
+        - workshop/   → Sự kiện & hoạt động STEM
+            - **events.html**  → Sự kiện, Workshop STEM
+            - rate.html  → Đánh giá khách hàng
+            - register.html   →  Trang đăng ký tham gia workshop / event
+            - materials.html    → Tài liệu / slide / nội dung workshop
+    - assets/
+        - css/ → Các file CSS
+          - style.css  → file CSS: nó để CSS những cái chung chung !QUAN TRỌNG
+          - component.css
+          - base.css
+          - layout/  
+            - header.css
+            - footer.css
+            - container.css
+          - fonts/ → Font chữ sử dụng
+            - fonts.css  → Khai báo font ở đây //Down font đặt biệt// Thông thường dùng gg font cho nhanh.   
+          - pages/   → file CSS: css riêng từng trang -> sau đó link vào .html
+            - ???.css  
+            - ???.css  
+            - ???.css  
+            - ???.css  
+        - js/ → Các file JavaScript  
+            - components.js → logic tải các trang  
+            - main.js → main js  
+            - pages/  → file JS: js riêng từng trang -> sau đó src vào .html  
+               - ?????.js
+               - ?????.js
+               - ?????.js
+        - images/ → Chứa hình ảnh  
+            - logo.jpg
+            - banner/
+            - products/
+            - blog/
+            - ......
+        - data/ → File dữ liệu giả lập (JSON)
+ 
 ## ⚙️ YÊU CẦU CHUNG VỀ CODE
 ### 🧭 MỤC TIÊU CHUNG
 - Code **dễ đọc, dễ hiểu, dễ bảo trì**, ai cũng nắm rõ phần mình làm.
@@ -26,6 +102,16 @@
 - Sử dụng **cú pháp BEM** cho class nha.
 
 - FONTS: **lấy và sử dụng ở trang:** https://fonts.google.com/ => import vào fonts.css
+
+
+## ⚙️ QUY TẮC CHUNG
+- HTML: Dùng thẻ semantic (`<header>`, `<main>`, `<section>`, `<footer>`).
+- CSS: Đặt tên theo quy tắc BEM.
+- JS: Mỗi trang dùng file riêng trong `/assets/js/pages/` nếu có tính năng đặc biệt.
+- Mọi phần layout (Header/Footer) được nạp tự động qua `components.js`.
+
+
+
 
 #### 💻 HTML
 
@@ -93,6 +179,7 @@ Dự án không chỉ giúp nhóm nâng cao kỹ năng lập trình web, mà cò
 Mục tiêu: Hoàn thiện sản phẩm đúng tiến độ, hoạt động ổn định, giao diện đẹp – hướng tới điểm 10 tuyệt đối cho đồ án giữa kì. KAKA
 
 
+
 ## Cấu trúc thư mục
 
 - LTWeb_GiuaKi_Nhom23-Shop_Steam/  
@@ -145,6 +232,7 @@ Mục tiêu: Hoàn thiện sản phẩm đúng tiến độ, hoạt động ổn
       - fonts/ → Font chữ sử dụng
       - data/ → File dữ liệu giả lập (JSON)
   - README.md → Tài liệu mô tả dự án
+
 
 ## 🧩 Mô tả dự án
 
