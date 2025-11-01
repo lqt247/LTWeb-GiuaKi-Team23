@@ -103,11 +103,14 @@
 
 - FONTS: **lấy và sử dụng ở trang:** https://fonts.google.com/ => import vào fonts.css
 
+
 ## ⚙️ QUY TẮC CHUNG
 - HTML: Dùng thẻ semantic (`<header>`, `<main>`, `<section>`, `<footer>`).
 - CSS: Đặt tên theo quy tắc BEM.
 - JS: Mỗi trang dùng file riêng trong `/assets/js/pages/` nếu có tính năng đặc biệt.
 - Mọi phần layout (Header/Footer) được nạp tự động qua `components.js`.
+
+
 
 
 #### 💻 HTML
@@ -174,6 +177,61 @@ giúp người dùng có thể xem – tìm kiếm – đặt mua sản phẩm, 
 Dự án không chỉ giúp nhóm nâng cao kỹ năng lập trình web, mà còn hiểu rõ quy trình xây dựng một ứng dụng web thực tế – từ khâu lên ý tưởng, thiết kế giao diện, kết nối cơ sở dữ liệu, đến triển khai và kiểm thử sản phẩm.
 
 Mục tiêu: Hoàn thiện sản phẩm đúng tiến độ, hoạt động ổn định, giao diện đẹp – hướng tới điểm 10 tuyệt đối cho đồ án giữa kì. KAKA
+
+
+
+## Cấu trúc thư mục
+
+- LTWeb_GiuaKi_Nhom23-Shop_Steam/  
+  - src/
+    - index.html → Trang chủ
+    - main/
+      - **about.html** → Giới thiệu về STEM & nhóm phát triển
+      - **contact.html** → Liên hệ
+      - faq.html → Câu hỏi thường gặp (footer)
+      - policy.html → Chính sách bảo hành / đổi trả (footer)
+      - terms.html → Điều khoản sử dụng (footer)
+    - shop/
+        - **shop.html** → Danh sách sản phẩm
+        - category.html → Danh mục sản phẩm
+        - product-detail.html → Chi tiết sản phẩm
+        - **cart.html** → Giỏ hàng
+        - **wishlist.html** → Danh sách yêu thích
+        - checkout.html → Thanh toán
+    - user/
+      - **sign-in.html** → Đăng nhập
+      - **sign-up.html** → Đăng ký
+      - forgot-password.html → Quên mật khẩu
+    - content/
+      - **blog.html** → Danh sách bài viết
+      - blog-detail.html → Chi tiết bài viết
+      - gallery.html → Bộ sưu tập hình ảnh
+    - workshop/
+        - events.html → Sự kiện, Workshop STEM
+        - rate.html → Đánh giá khách hàng
+    - assets/
+      - css/ → Các file CSS
+        - style.css  → file CSS: nó để CSS những cái chung chung
+        - fonts.css  → Khai báo font ở đây //Down font đặt biệt// Thông thường dùng gg font cho nhanh.
+        - base.css
+        - layout.css
+        - component.css
+        - pages/   → file CSS: css riêng từng trang -> sau đó link vào .html
+        - style.css  → file CSS chính -> điều hướng tới các file css sau.
+        - base.css
+        - layout.css
+        - component.css
+        - pages/ 
+          - ???.css
+          - ???.css
+          - ???.css
+          - ???.css
+
+      - js/ → Các file JavaScript
+      - images/ → Hình ảnh sản phẩm, banner
+      - fonts/ → Font chữ sử dụng
+      - data/ → File dữ liệu giả lập (JSON)
+  - README.md → Tài liệu mô tả dự án
 
 
 ## 🧩 Mô tả dự án
