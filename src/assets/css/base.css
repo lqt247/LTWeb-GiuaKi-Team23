@@ -1,4 +1,3 @@
-
 /* --- BASE --- */
 * {
   margin: 0;
@@ -63,15 +62,50 @@ p, li, span {
 }
 
 body {
-  font-family: 'Roboto', sans-serif; 
-  color: #333; 
-  background-color: #fff; 
-  line-height: 1.6; 
+  /* font-family: 'Roboto', sans-serif;  */
+  font-family: 'Be Vietnam Pro', sans-serif;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+/* ------------------------ */
+:root {
+  --font-heading: 'Fredoka', 'Paytone One', sans-serif;
+  --font-body: 'Be Vietnam Pro', 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  color: #333;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+/* --- HEADING --- */
+/*h1 nên dùng Paytone One sẽ đẹp hơn*/
+h1 {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 2.8rem;
+  color: #2a2a2a;
+  letter-spacing: 0.5px;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+h2 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 
-h1, h2, h3, .header__logo {
-  font-family: 'Poppins', sans-serif; 
-  font-weight: 600;
-  line-height: 1.3;
+/* --- TEXT --- */
+p, li, span {
+  font-family: var(--font-body);
+  line-height: 1.6;
 }

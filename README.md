@@ -103,7 +103,6 @@
 
 - FONTS: **lấy và sử dụng ở trang:** https://fonts.google.com/ => import vào fonts.css
 
-
 ## ⚙️ QUY TẮC CHUNG
 - HTML: Dùng thẻ semantic (`<header>`, `<main>`, `<section>`, `<footer>`).
 - CSS: Đặt tên theo quy tắc BEM.
