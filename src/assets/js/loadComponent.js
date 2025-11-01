@@ -14,6 +14,7 @@ async function loadComponent(id, filePath) {
 
 // Khi trang load xong, tự động gọi hàm để chèn header và footer
 document.addEventListener("DOMContentLoaded", () => {
-    loadComponent("header", "../components/header.html");
-    loadComponent("footer", "../components/footer.html");
+    loadComponent("header", "/src/components/header.html");
+    loadComponent("footer", "/src/components/footer.html");
+
 });
