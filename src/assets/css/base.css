@@ -1,14 +1,14 @@
-
 /* --- BASE --- */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
 
-  font-size: 14px;
+  font-size: 18px; 
+
 }
 
 body {
@@ -75,4 +75,3 @@ h1, h2, h3, .header__logo {
   font-weight: 600;
   line-height: 1.3;
 }
-

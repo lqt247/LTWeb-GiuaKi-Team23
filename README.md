@@ -177,6 +177,7 @@ Dự án không chỉ giúp nhóm nâng cao kỹ năng lập trình web, mà cò
 
 Mục tiêu: Hoàn thiện sản phẩm đúng tiến độ, hoạt động ổn định, giao diện đẹp – hướng tới điểm 10 tuyệt đối cho đồ án giữa kì. KAKA
 
+
 ### 🔍 Giới thiệu
 
 **STEM** là viết tắt của bốn lĩnh vực chính:

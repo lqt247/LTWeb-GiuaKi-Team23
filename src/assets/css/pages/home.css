@@ -1,3 +1,4 @@
+
 @media (max-width: 768px) {
     main>section {
         padding: 60px 0;
@@ -780,7 +781,7 @@ main {
 .section-newsletter__form button:hover {
     background: #222;
     color: #fff;
-body{
+}
    
 main{
  background-color: black;
@@ -806,7 +807,6 @@ main {
     position: relative;
     display: inline-block;
 }
-
 .subtitle::after {
     content: "";
     position: absolute;
@@ -873,7 +873,8 @@ main {
     border-radius: 20px;
     padding: 12px 22px;
     margin-top: 20px;
-    transition: background 0.3s all ease-in-out;
+
+    transition: 0.3s all ease-in-out; 
 }
 
 .section-hero__content a:hover {
@@ -1107,6 +1108,7 @@ main {
     transform: scale(1.05);
     opacity: 0.9;
 }
+
 
 /*---------------------------- VIEW ALL BUTTON ----------------------------*/
 .featured-products-viewshop {
