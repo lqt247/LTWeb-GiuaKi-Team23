@@ -1,5 +1,6 @@
 
 
+
 /*-----CSS cơ bản chung cần có------*/
 
 /*-----CSS BASE------*/
@@ -24,24 +25,4 @@
 
 
 
-/*-----CSS cơ bản chung cần có------*/
-
-/*-----CSS BASE------*/
-@import url(base.css);
-@import url(fonts.css);
-
-
-/*-----CSS LAYOUT------*/
-@import url(layout/header.css);
-@import url(layout/footer.css);
-@import url(layout/container.css);
-
-/*-----CSS COMPOENTS------*/
-@import url(components.css);
-
-
-
-=======
-/*-----CSS cơ bản------*/
-@import url(base.css);
 

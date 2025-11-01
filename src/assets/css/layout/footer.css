@@ -10,7 +10,6 @@
 }
 
 .footer__container {
-
   display: flex;
   flex-wrap: wrap; /* Cho phép xuống hàng khi thu nhỏ */
   justify-content: space-between;
@@ -24,26 +23,12 @@
     font-size: 1.6rem;
     margin-bottom: 20px;
     position: relative;
+
     transition: all 0.3s ease-in;
     font-family: 'Fredoka' , sans-serif;
 }
 .footer__col h3:hover {
     transform: translateY(5px);
-
-
-    display: flex;
-    flex-direction: row;
-
-    justify-content: space-between;
-    gap: 40px;
-    margin: auto;
-}
-
-.footer__col h3 {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    position: relative;
-
 }
 
 .footer__col h3::after {
@@ -68,7 +53,6 @@
 }
 .footer__col ul li a {
     text-decoration: none;
-
     font-weight: 400;
     display: block;
     color: #fff;
@@ -134,27 +118,11 @@
   text-align: left;
      font-family: 'Fredoka' , sans-serif;
 }
+
 .footer__contact{
  text-align: left;
 }
 
-
-    color: #fff;
-    transition: 0.3s;
-}
-.footer__col ul li a:hover {
-    color: #ffb84d;
-    transform: translateX(4px);
-}
-.footer__logo h2 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-    color: #ffb84d;
-}
-.footer__logo p {
-    font-size: 0.95rem;
-    line-height: 1.6;
-}
 
 .footer__contact p {
     margin: 8px 0;
@@ -169,10 +137,6 @@
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     padding-top: 15px;
-
-   
-
-
     font-size: 0.9rem;
 }
 /* --- CHO ĐT --- */
