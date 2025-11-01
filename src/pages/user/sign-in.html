@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+<!-- Header -->
+<div id="header"></div>
+
+<main class="auth">
+    <section class="auth__container">
+        <h1 class="auth__title">Đăng nhập</h1>
+
+        <form class="auth__form" id="signInForm">
+            <div class="auth__group">
+                <label for="email" class="auth__label">Email</label>
+                <input type="email" id="email" class="auth__input" placeholder="Nhập email của bạn" required>
+            </div>
+
+            <div class="auth__group">
+                <label for="password" class="auth__label">Mật khẩu</label>
+                <input type="password" id="password" class="auth__input" placeholder="Nhập mật khẩu" required>
+            </div>
+
+            <button type="submit" class="auth__button">Đăng nhập</button>
+
+            <p class="auth__link">
+                Chưa có tài khoản?
+                <a href="sign-up.html" class="auth__link--highlight">Đăng ký</a>
+            </p>
+        </form>
+    </section>
+</main>
+
+<!-- Footer -->
+<div id="footer"></div>
+
+<script src="../../assets/js/components.js"></script>
+<script src="../../assets/js/main.js"></script>
+</body>
+</html>
